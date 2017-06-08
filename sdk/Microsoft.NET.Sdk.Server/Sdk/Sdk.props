@@ -1,0 +1,22 @@
+<!--
+***********************************************************************************************
+Sdk.props
+
+WARNING:  DO NOT MODIFY this file unless you are knowledgeable about MSBuild and have
+          created a backup copy.  Incorrect changes to this file will make it
+          impossible to load or build your projects from the command-line or the IDE.
+
+Copyright (c) .NET Foundation. All rights reserved. 
+***********************************************************************************************
+-->
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <BaseIntermediateOutputPath>$(MSBuildProjectDirectory)\.net\obj</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildProjectDirectory)\.net\bin</BaseOutputPath>
+  </PropertyGroup>
+
+  <Import Sdk="Microsoft.NET.Sdk.Web" Project="Sdk.props" />
+
+</Project>

@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk.Server">
+
+  <!--Your package dependencies will appear here when you use `dotnet packages add <packageName>`-->
+
+</Project>
