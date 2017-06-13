@@ -22,7 +22,9 @@ Copyright (c) .NET Foundation. All rights reserved.
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0-preview1-final" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.0-preview1-final" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.0.0-preview1-final" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.0.0-preview1-final" />
   </ItemGroup>
 
   <ItemGroup>
